@@ -5,7 +5,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import Navbar from "./components/Navbar";
 import useCart from "./hooks/useCart";
-import "./styles.scss";
+import "./saaets/styles.scss";
 
 function App() {
   const { cart, addToCart, updateCartQty, removeFromCart, clearCart } =

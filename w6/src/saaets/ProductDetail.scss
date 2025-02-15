@@ -1,0 +1,23 @@
+.product-detail {
+  max-width: 600px; // 限制最大寬度
+  margin: 0 auto; // 置中
+  padding: 20px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .form-select {
+    width: auto;
+  }
+
+  .d-flex {
+    flex-wrap: wrap; // 避免小螢幕溢出
+  }
+
+  button {
+    white-space: nowrap; // 防止按鈕換行
+  }
+}
